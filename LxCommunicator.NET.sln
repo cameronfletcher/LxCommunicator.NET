@@ -1,13 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30330.147
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LxCommunicator.NET", "LxCommunicator.NET\LxCommunicator.NET.csproj", "{BFE62D3B-F855-4A8F-8CFA-6178AB30B37F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LxCommunicator.NET", "LxCommunicator.NET\LxCommunicator.NET.csproj", "{BFE62D3B-F855-4A8F-8CFA-6178AB30B37F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LxCommunicator.NET.Example.Http", "LxCommunicator.NET.Example.Http\LxCommunicator.NET.Example.Http.csproj", "{5A793E57-2E50-48ED-AEF0-4DA3068FD591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LxCommunicator.NET.Example.Http", "LxCommunicator.NET.Example.Http\LxCommunicator.NET.Example.Http.csproj", "{5A793E57-2E50-48ED-AEF0-4DA3068FD591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LxCommunicator.NET.Example.Websocket", "LxCommunicator.NET.Example.Websocket\LxCommunicator.NET.Example.Websocket.csproj", "{6B606C6C-9497-439C-BE2C-7415CB1A3E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LxCommunicator.NET.Example.Websocket", "LxCommunicator.NET.Example.Websocket\LxCommunicator.NET.Example.Websocket.csproj", "{6B606C6C-9497-439C-BE2C-7415CB1A3E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{15DC96C4-F178-4DD3-BE46-586DBB14E490}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		Logo.png = Logo.png
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

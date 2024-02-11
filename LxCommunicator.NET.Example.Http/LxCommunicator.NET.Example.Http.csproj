@@ -2,14 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-	<TargetFrameworks>netstandard2.0;net472;net6.0</TargetFrameworks>
-	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <UserSecretsId>f2514628-398e-4dde-8d97-80a5aeb20769</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\LxCommunicator.NET\LxCommunicator.NET.csproj">
-	    <IncludeAssets>all</IncludeAssets>
-	  </ProjectReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <ProjectReference Include="..\LxCommunicator.NET\LxCommunicator.NET.csproj">
+        <IncludeAssets>all</IncludeAssets>
+      </ProjectReference>
   </ItemGroup>
 
 </Project>
